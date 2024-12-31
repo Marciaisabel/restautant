@@ -1,0 +1,314 @@
+   #home-tiles {
+        margin: 20px;
+      }
+
+      .star-k-logo {
+        width: auto;
+        height: auto;
+      }
+
+      /* Custom style for the navbar and logo */
+      .navbar-brand {
+        display: flex;
+        align-items: center;
+        color: rgb(38, 98, 26);
+        font-weight: bold;
+        justify-content: flex-start;
+      }
+
+      .navbar-brand .restaurant-title {
+        margin-top: 5px;
+        font-weight: bold;
+        color: rgb(38, 98, 26);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-left: 15px;
+      }
+
+      .restaurant-title span {
+        font-weight: bold;
+        color: rgb(16, 15, 15);
+        font-family: cursive;
+        margin-left: 5px;
+      }
+
+      body {
+        background-color: rgb(61, 20, 20);
+      }
+
+      /* Apply yellow background to the whole navbar */
+      .navbar {
+        background-color: rgb(213, 182, 79) !important;
+      }
+
+      .navbar-brand:hover {
+        color: black;
+      }
+
+      .restaurant-title:hover {
+        color: rgb(49, 16, 18);
+      }
+
+      #navbarNav {
+        text-align: center;
+      }
+
+      /* Phone number block styles */
+      .phone-number-block {
+        background-color: rgb(213, 182, 79);
+        text-align: center;
+        padding: 15px 0;
+        font-size: 1.2rem;
+        color: black;
+      }
+
+      /* Navbar item styles */
+      .nav-item {
+        text-align: center;
+        padding: 5px;
+      }
+
+      .icon-text {
+        display: block;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: rgb(98, 26, 26);
+        margin-top: 5px;
+      }
+
+      .nav-item i {
+        font-size: 2rem;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .icon-text:hover {
+        color: rgb(94, 173, 94);
+      }
+
+      .nav-item i:hover {
+        color: rgb(140, 185, 68);
+      }
+
+      .nav-item {
+        color: rgb(28, 5, 5);
+      }
+
+      .nav-item i {
+        color: rgb(29, 7, 7);
+      }
+
+      .we-deliver {
+        color: rgb(64, 145, 64);
+      }
+
+      #collapsable-nav a {
+        font-size: 1.5em;
+      }
+
+      .jumbotron {
+        margin-top: 40px;
+        align-items: center;
+      }
+
+      .jumbotron img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      /* Home tiles layout */
+      #home-tiles {
+        margin: 20px auto;
+        text-align: center;
+      }
+
+      /* Restaurant title styles */
+      @media (max-width: 992px) {
+        .navbar-brand {
+          font-size: 1.6rem;
+        }
+
+        .restaurant-title {
+          font-size: 1.3rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .navbar-brand {
+          font-size: 1.3rem;
+        }
+
+        .restaurant-title {
+          font-size: 1.2rem;
+        }
+
+        .restaurant-title span {
+          font-size: 0.8rem;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .navbar-brand {
+          font-size: 1rem;
+        }
+
+        .restaurant-title {
+          font-size: 1rem;
+        }
+
+        .restaurant-title span {
+          font-size: 0.7rem;
+        }
+      }
+
+      .phone-number-block {
+        background-color: rgb(193, 213, 206);
+        border: 5px;
+        color: black;
+      }
+
+      .containrr .jumbotron {
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #e4dcdf;
+      }
+
+      /* Hover effect for menu, specials, and map tiles */
+      /* Position text at the bottom of the tile */
+      .menu-tile span,
+      .specials-tile span,
+      .map-tile span {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(230, 164, 12, 0.5);
+        color: rgb(74, 9, 9);
+        bottom: 0px;
+        font-weight: bold;
+        font-size: 1.6rem;
+      }
+      .menu-tile span:hover,
+      .specials-tile span:hover,
+      .map-tile span:hover {
+        color: rgb(101, 150, 134);
+      }
+
+      /* Specials Tile */
+      .specials-tile {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        margin-bottom: 15px;
+        border: 2px solid #3F0C1F;
+        background-image: url('images/specials-tile.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      /* Map Tile: Embed the map iframe */
+      .map-tile iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      /* Text color change on hover */
+      /* Align content inside the tiles to center */
+      #home-tiles .col-md-4 {
+        text-align: center;
+      }
+
+      /* Menu Tile Background */
+      .menu-tile {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        border: 2px solid #3F0C1F;
+        background-image: url('images/menu-tile.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+
+      #testimonials {
+        color: aliceblue;
+      }
+
+      #hours {
+        color: aliceblue;
+      }
+      #address {
+        color: aliceblue;
+      }
+      .map-tile {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+        border: 2px solid #3F0C1F;
+        background-color: #e6e6e6;
+        height: 250px;
+      }
+      .text-center {
+        color: antiquewhite;
+      }
+      #address p {
+        font-size: 0.9rem;
+        color: #7dbe4e;
+        font-weight: normal;
+      }
+
+      #address .delivery-area {
+        font-weight: bold;
+        color: rgb(64, 145, 64);
+      }
+      .navbar-brand img {
+        width: auto;
+        height: auto;
+        display: block;
+      }
+
+      /* Hide the small logo by default */
+      .medium-logo {
+        display: none !important;
+      }
+
+      /* Media query for large screens (desktop) */
+      @media (min-width: 992px) {
+        .large-logo {
+          display: block !important;
+        }
+        .medium-logo {
+          display: none !important;
+        }
+      }
+
+      /* Media query for smaller screens (tablet, mobile) */
+      @media (max-width: 991px) {
+        .large-logo {
+          display: none !important;
+        }
+        .medium-logo {
+          display: block !important;
+        }
+      }
+      /* Add hover background to the navigation links */
+.nav-link.hover-bg {
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.nav-link.hover-bg:hover {
+  background-color: #f1f1f1; /* Light grey background color on hover */
+}
+
+
+
+/* For the icon and text hover effect */
+.nav-item i:hover {
+    color: rgb(140, 185, 68); /* Same hover color for the icon */
+}
+
+.icon-text:hover {
+    color: rgb(94, 173, 94); /* Same hover color for the text */
+}
+
+/* Optional: Adding a transition effect for smooth hover transitions */
+.nav-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
